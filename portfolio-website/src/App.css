@@ -1,0 +1,25 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  padding: 5rem 0;
+  background-color: #343a40;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
