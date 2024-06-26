@@ -1,25 +1,21 @@
+// src/App.js
+
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavbarComponent from './components/Navbar';
-import Header from './components/Header';
-import About from './components/About';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import ServiceDetail from './pages/ServiceDetail';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavbarComponent />
-      <Header />
-      <About />
-      <Services />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services/:id" element={<ServiceDetail />} />
+      </Routes>
+    </Router>
   );
 }
 

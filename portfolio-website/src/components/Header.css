@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+
+.header {
+    position: relative;
+    background: url('./hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .header-content {
+    background-color:none ; /* Optional: to make text more readable */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .header-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .header button {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+  }
+  

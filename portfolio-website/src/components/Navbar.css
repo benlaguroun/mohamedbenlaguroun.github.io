@@ -1,0 +1,13 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.fixed-top {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar.fixed-top.scrolled {
+  background-color: #343a40;
+}

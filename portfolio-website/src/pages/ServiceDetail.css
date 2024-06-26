@@ -1,0 +1,48 @@
+/* src/pages/ServiceDetail.css */
+
+.service-detail-container {
+  margin-top: 50px;
+}
+
+.service-detail-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.service-detail-header {
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  color: #fff;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  padding: 20px;
+}
+
+.price-card {
+  margin-top: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.price-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.price-card .card-text {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.price-card .btn-primary {
+  background-color: #ff6b6b;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.price-card .btn-primary:hover {
+  background-color: #f06595;
+}
